@@ -2,6 +2,11 @@
 
 App which displays restaurants on a tableView from a DoorDash API
 
+## Screen Shots:
+
+![GitHub Logo](Simulator Screen Shot - iPhone 11 Pro - 2020-07-26 at 20.17.56.png)
+Format: ![Alt Text](url)
+
 ## Thoughts:
 
 I wanted to keep the project simple. At first I wrote a separate networking layer but eventually went with AlamoFire and use Codable for parsing JSON as I have never tried that before. I found that it was very simple to use although one can argue that using a dependency for just one of its feature is overkill. I also decided to use sdwebimage (an image downloading and caching framework) due to its simplicity. 
