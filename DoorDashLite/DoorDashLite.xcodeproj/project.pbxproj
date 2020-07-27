@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019FC0273E76A3AE620FD647 /* Pods_DoorDashLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1FC5B7E329332A97763E91 /* Pods_DoorDashLite.framework */; };
+		1153C7D223282D5D000275B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1153C7D123282D5D000275B4 /* Default-568h@2x.png */; };
+		1153C7DE23283274000275B4 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C7DD23283274000275B4 /* RestaurantModel.swift */; };
+		1153C7E023283281000275B4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C7DF23283281000275B4 /* APIService.swift */; };
+		1153C7E223283288000275B4 /* ChooseAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C7E123283288000275B4 /* ChooseAddressViewController.swift */; };
+		1153C7E42328328D000275B4 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C7E32328328D000275B4 /* RestaurantListViewController.swift */; };
+		1153C7E6232832C5000275B4 /* RestaurantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C7E5232832C5000275B4 /* RestaurantListViewModel.swift */; };
+		1153C7E8232832CC000275B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C7E7232832CC000275B4 /* AppDelegate.swift */; };
+		1153C7EB23283314000275B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1153C7E923283314000275B4 /* Main.storyboard */; };
+		1153C7EE2328331A000275B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1153C7EC2328331A000275B4 /* LaunchScreen.storyboard */; };
+		1153C7F023283346000275B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1153C7EF23283346000275B4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1153C7D123282D5D000275B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1153C7DD23283274000275B4 /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantModel.swift; path = Model/RestaurantModel.swift; sourceTree = SOURCE_ROOT; };
+		1153C7DF23283281000275B4 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = Service/APIService.swift; sourceTree = SOURCE_ROOT; };
+		1153C7E123283288000275B4 /* ChooseAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseAddressViewController.swift; path = View/ChooseAddressViewController.swift; sourceTree = SOURCE_ROOT; };
+		1153C7E32328328D000275B4 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantListViewController.swift; path = View/RestaurantListViewController.swift; sourceTree = SOURCE_ROOT; };
+		1153C7E5232832C5000275B4 /* RestaurantListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantListViewModel.swift; path = ViewModel/RestaurantListViewModel.swift; sourceTree = SOURCE_ROOT; };
+		1153C7E7232832CC000275B4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		1153C7EA23283314000275B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		1153C7ED2328331A000275B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		1153C7EF23283346000275B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		1183795123222281003F3C66 /* DoorDashLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDashLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1183796023222284003F3C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CDFEE3D7516D8AF67D5C38 /* Pods-DoorDashLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDashLite.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoorDashLite/Pods-DoorDashLite.release.xcconfig"; sourceTree = "<group>"; };
+		2D1FC5B7E329332A97763E91 /* Pods_DoorDashLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoorDashLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E250B96E3D25BB25FB07A9E /* Pods-DoorDashLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDashLite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoorDashLite/Pods-DoorDashLite.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1183794E23222281003F3C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019FC0273E76A3AE620FD647 /* Pods_DoorDashLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11240D3E23281424007CAA46 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1153C7E5232832C5000275B4 /* RestaurantListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1183794823222281003F3C66 = {
+			isa = PBXGroup;
+			children = (
+				1153C7D123282D5D000275B4 /* Default-568h@2x.png */,
+				1183795323222281003F3C66 /* DoorDashLite */,
+				1183795223222281003F3C66 /* Products */,
+				DAC82EC8598BC12F37FF9D77 /* Pods */,
+				6397B82C66411A1D138A285A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1183795223222281003F3C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1183795123222281003F3C66 /* DoorDashLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1183795323222281003F3C66 /* DoorDashLite */ = {
+			isa = PBXGroup;
+			children = (
+				119E1AF82327E2A4003BA9F2 /* Service */,
+				118C839423260C2200C8ABF7 /* Model */,
+				118C83992326316200C8ABF7 /* View */,
+				11240D3E23281424007CAA46 /* ViewModel */,
+				1153C7E7232832CC000275B4 /* AppDelegate.swift */,
+				1153C7E923283314000275B4 /* Main.storyboard */,
+				1153C7EC2328331A000275B4 /* LaunchScreen.storyboard */,
+				1153C7EF23283346000275B4 /* Assets.xcassets */,
+				1183796023222284003F3C66 /* Info.plist */,
+			);
+			path = DoorDashLite;
+			sourceTree = "<group>";
+		};
+		118C839423260C2200C8ABF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1153C7DD23283274000275B4 /* RestaurantModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		118C83992326316200C8ABF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1153C7E123283288000275B4 /* ChooseAddressViewController.swift */,
+				1153C7E32328328D000275B4 /* RestaurantListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		119E1AF82327E2A4003BA9F2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1153C7DF23283281000275B4 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6397B82C66411A1D138A285A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D1FC5B7E329332A97763E91 /* Pods_DoorDashLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC82EC8598BC12F37FF9D77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E250B96E3D25BB25FB07A9E /* Pods-DoorDashLite.debug.xcconfig */,
+				21CDFEE3D7516D8AF67D5C38 /* Pods-DoorDashLite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1183795023222281003F3C66 /* DoorDashLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1183796323222284003F3C66 /* Build configuration list for PBXNativeTarget "DoorDashLite" */;
+			buildPhases = (
+				AA2E171391F37D79EADD7F0F /* [CP] Check Pods Manifest.lock */,
+				1183794D23222281003F3C66 /* Sources */,
+				1183794E23222281003F3C66 /* Frameworks */,
+				1183794F23222281003F3C66 /* Resources */,
+				B96F36CA88E7A7CB364494E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorDashLite;
+			productName = DoorDashLite;
+			productReference = 1183795123222281003F3C66 /* DoorDashLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1183794923222281003F3C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alexander Bui";
+				TargetAttributes = {
+					1183795023222281003F3C66 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1183794C23222281003F3C66 /* Build configuration list for PBXProject "DoorDashLite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1183794823222281003F3C66;
+			productRefGroup = 1183795223222281003F3C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1183795023222281003F3C66 /* DoorDashLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1183794F23222281003F3C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1153C7EB23283314000275B4 /* Main.storyboard in Resources */,
+				1153C7EE2328331A000275B4 /* LaunchScreen.storyboard in Resources */,
+				1153C7F023283346000275B4 /* Assets.xcassets in Resources */,
+				1153C7D223282D5D000275B4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA2E171391F37D79EADD7F0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoorDashLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96F36CA88E7A7CB364494E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoorDashLite/Pods-DoorDashLite-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoorDashLite/Pods-DoorDashLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1183794D23222281003F3C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1153C7E8232832CC000275B4 /* AppDelegate.swift in Sources */,
+				1153C7DE23283274000275B4 /* RestaurantModel.swift in Sources */,
+				1153C7E6232832C5000275B4 /* RestaurantListViewModel.swift in Sources */,
+				1153C7E023283281000275B4 /* APIService.swift in Sources */,
+				1153C7E42328328D000275B4 /* RestaurantListViewController.swift in Sources */,
+				1153C7E223283288000275B4 /* ChooseAddressViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1153C7E923283314000275B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1153C7EA23283314000275B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1153C7EC2328331A000275B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1153C7ED2328331A000275B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1183796123222284003F3C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1183796223222284003F3C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1183796423222284003F3C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E250B96E3D25BB25FB07A9E /* Pods-DoorDashLite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderBui.DoorDashLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1183796523222284003F3C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CDFEE3D7516D8AF67D5C38 /* Pods-DoorDashLite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderBui.DoorDashLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1183794C23222281003F3C66 /* Build configuration list for PBXProject "DoorDashLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1183796123222284003F3C66 /* Debug */,
+				1183796223222284003F3C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1183796323222284003F3C66 /* Build configuration list for PBXNativeTarget "DoorDashLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1183796423222284003F3C66 /* Debug */,
+				1183796523222284003F3C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1183794923222281003F3C66 /* Project object */;
+}

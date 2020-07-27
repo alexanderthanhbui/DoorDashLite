@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+  use_frameworks!
+ 
+target 'DoorDashLite' do		
+  pod 'Alamofire', '~> 4'
+  pod 'SDWebImage', '~> 5.0'
+
+end
