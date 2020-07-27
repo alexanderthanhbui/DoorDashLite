@@ -4,7 +4,7 @@ App which displays restaurants on a tableView from a DoorDash API
 
 ## Screen Shots:
 
-![GitHub Logo](Simulator Screen Shot - iPhone 11 Pro - 2020-07-26 at 20.17.56.png)
+![GitHub Logo](/Simulator Screen Shot - iPhone 11 Pro - 2020-07-26 at 20.17.56.png)
 Format: ![Alt Text](url)
 
 ## Thoughts:
